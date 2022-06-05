@@ -4,7 +4,7 @@ import java.io.*;
 public class maximumsubarray{
 	
 	public static long maxSubarraySum(int[] arr, int n) {
-    		long[] b=new long[arr.length];
+    	    long[] b=new long[arr.length];
             b[0]=arr[0];
             long maxSubAraySum=b[0];
             for(int i=1;i<arr.length;i++){
