@@ -1,6 +1,6 @@
 import java.util.* ;
 import java.io.*; 
-public class Solution 
+public class sortzeroonetwo
 {
     public static void sort012(int[] arr)
     {
