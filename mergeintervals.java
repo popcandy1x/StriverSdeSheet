@@ -18,7 +18,7 @@ import java.io.*;
 import java.util.List;
 import java.util.ArrayList;
 
-public class Solution {
+public class mergeintervals {
     public static List<Interval> mergeIntervals(Interval[] intervals) {
         List<Interval> s=new ArrayList<>();
         Arrays.sort(intervals, new Comparator<Interval>() {
