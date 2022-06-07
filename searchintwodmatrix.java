@@ -2,7 +2,7 @@ import java.util.* ;
 import java.io.*; 
 import java.util.ArrayList;
 
-public class Solution {
+public class searchinatwodmatrix {
     static boolean findTargetInMatrix(ArrayList<ArrayList<Integer>> mat, int m, int n, int target) {
         int[][] a=new int[m][n];
         for(int i=0;i<a.length;i++){
