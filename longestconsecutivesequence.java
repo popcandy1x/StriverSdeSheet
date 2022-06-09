@@ -1,6 +1,6 @@
 import java.util.* ;
 import java.io.*; 
-public class Solution {
+public class longestconsecutivesequence {
     public static int lengthOfLongestConsecutiveSequence(int[] arr, int N) {
         if(arr.length==0){
             return 0;
