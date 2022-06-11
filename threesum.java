@@ -1,6 +1,6 @@
 import java.util.* ;
 import java.io.*; 
-public class Solution {
+public class threesum {
 
     public static ArrayList<ArrayList<Integer>> findTriplets(int[] arr, int n, int K)  {
         Set<ArrayList<Integer>> D=new HashSet<>();
